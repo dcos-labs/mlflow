@@ -7,4 +7,4 @@ conda_env: conda.yaml
 
 entry_points:
   main:
-    command: "python MNIST_model.py"
+    command: "python train_predict.py"
