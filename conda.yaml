@@ -42,7 +42,7 @@ dependencies:
   - tk=8.6.9=ha441bb4_1001
   - werkzeug=0.15.2=py_0
   - wheel=0.33.1=py36_0
-  - xz=5.2.4=h1de35cc_1001
+  - xz
   - zlib=1.2.11=h1de35cc_1004
   - pip:
     - argparse==1.4.0
