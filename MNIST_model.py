@@ -49,7 +49,7 @@ if __name__ == "__main__":
         print('\nTest accuracy: {}'.format(test_acc))
 
         MODEL_NAME = 'mnist'
-        MODEL_DIR = './' + MODEL_NAME
+        MODEL_DIR = '/tmp/' + MODEL_NAME
         MODEL_VERSION = str(int(time.time()))
         export_path = os.path.join(MODEL_DIR, str(MODEL_VERSION))
         print('export_path = {}\n'.format(export_path))
