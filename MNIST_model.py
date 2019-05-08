@@ -10,6 +10,7 @@ import subprocess
 import time
 import tempfile
 import mlflow
+import mlflow.tensorflow
 
 if __name__ == "__main__":
     with mlflow.start_run():
